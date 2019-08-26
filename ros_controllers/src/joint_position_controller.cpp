@@ -39,7 +39,7 @@
  Desc: Effort(force)-based position controller using basic PID loop
 */
 
-#include <ros_controllers/joint_position_controller.h>
+#include <ros_controllers/joint_position_controller.hpp>
 #include <angles/angles.h>
 #include <pluginlib/class_list_macros.hpp>
 #include <std_msgs/msg/float64.hpp>
